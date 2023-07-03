@@ -1,12 +1,15 @@
 <?php
- function OpenConnection()
- {   $serverName = "";
-     $connectionOptions = array("Database"=>"SPA",
-         "Uid"=>"dh", "PWD"=>"horn@379");
-     $conn = sqlsrv_connect($serverName, $connectionOptions);
-     if($conn == false)
-         die(FormatErrors(sqlsrv_errors()));
+    $server="localhost";
+    $user="root";
+    $pass="";
+    $db="spa";
 
-     return $conn;}
+    $conexion= new mysqli($server, $user, $pass, $db);
+
+    /* if($conexion->connect_errno){
+        die("Conexión fallida". $conexion->connect_errno);
+    }else{
+        echo "CONECTADO A LA BASE DE DATOS";
+    } */
 
 ?>
