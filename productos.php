@@ -28,6 +28,7 @@
 				<ul>
 					<li><a href="Index.html">Inicio</a></li>
 					<li><a href="productos.php">Productos</a></li>
+					<li><a href="motor.html">Recomendaciones</a></li>
                     <li><a href="servicios.php">Servicios</a></li>
                     <li><a href="reservas.html">Reservar</a></li>
 					<li><a href="#">Contacto</a></li>
