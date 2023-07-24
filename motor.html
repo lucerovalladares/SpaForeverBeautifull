@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recomendaciones </title>
+ 
+  <style>
+   /* Estilo del fondo */
+   body {
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0; /* Eliminar margen predeterminado del body */
+        }
+
+        /* Estilo del marco */
+        .container {
+            border: 2px solid rgb(241, 30, 93);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center; /* Centrar el texto */
+            background-color: rgba(247, 83, 173, 0.952);
+            margin-top: 50px; /* Ajustar el espacio arriba */
+            flex-direction: column; /* Alinear elementos verticalmente */
+            align-items: center;
+        }
+
+        /* Estilo del texto */
+        h1 {
+            font-family: "Arial", sans-serif; /* Cambiar la fuente */
+            font-size: 20px; /* Cambiar el tamaño del texto */
+            color: #333; /* Cambiar el color del texto */
+            margin-bottom: 10px; /* Añadir espacio entre párrafos */
+        }
+
+
+        /* Estilo del botón */
+        a {
+            display: inline-block;
+            background-color: violet;
+            color: rgb(228, 90, 187);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        
+      
+    /* Cambiar el color del texto del botón cuando se pase el cursor sobre él */
+    a:hover {
+        color: rgb(36, 2, 36);
+    }
+</style>
+</head>
+<body>
+
+  
+
+<div class="container">
+  <h1>-------------</h1>
+  <h1>Bienvenidos</h1>
+    <p>Este es un sitio web donde puedes encontrar informacion interesante sobre los productos mas solicitados por los clientes.</p>
+    <p>A continuacion, encontraras un enlace a un Google Colab Notebook:</p>
+      <!-- Botón que redirecciona a Google Colab -->
+      <a href="https://colab.research.google.com/drive/1bEtT56keItv4nj9IqEl9YKAnwO_SUXzW?usp=sharing" target="_blank">
+          Ir a Google Colab
+      </a>
+
+    <div>
+    <p>Google Colab Notebook:</p>
+    <iframe src="https://colab.research.google.com/drive/1bEtT56keItv4nj9IqEl9YKAnwO_SUXzW?usp=sharing" width="800" height="600"></iframe>
+  </div>
+</div>
+</body>
+</html>
